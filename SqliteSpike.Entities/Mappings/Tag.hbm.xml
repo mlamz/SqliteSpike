@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="SqliteSpike.Entities" namespace="SqliteSpike.Entities">
+  <class name="Tag">
+    <id name="TagId" unsaved-value="00000000-0000-0000-0000-000000000000">
+      <generator class="guid" />
+    </id>
+    <property name="Name" />
+    <bag name="Products" table="ProductTag" lazy="false" inverse="true">
+      <key column="TagId"></key>
+      <many-to-many class="Product" column="ProductId"></many-to-many>
+    </bag>
+  </class>
+</hibernate-mapping>

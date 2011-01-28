@@ -1,0 +1,46 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="prop" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="test" priority="0" />
+      <Item value="false" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="54B8F1C2-95DB-48B8-AB75-833FFF7C7C36/f:Class1.cs" caret="146" fromTop="7" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/f:Class1.cs" caret="257" fromTop="9" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/d:Mappings/f:Product.hbm.xml" caret="400" fromTop="12" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/f:hibernate.cfg.xml" caret="585" fromTop="10" />
+      <File id="F6CA20D5-E7F4-42CF-B0FE-E7DF0C3E61BF/f:Class1.cs" caret="478" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F6CA20D5-E7F4-42CF-B0FE-E7DF0C3E61BF/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/d:Mappings/f:Product.hbm.xml" caret="0" fromTop="7" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/f:Class1.cs" caret="257" fromTop="9" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/d:Mappings/f:Product.hbm.xml" caret="0" fromTop="0" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/d:Mappings/f:Product.hbm.xml" caret="0" fromTop="0" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/d:Mappings/f:Product.hbm.xml" caret="195" fromTop="4" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/d:Mappings/f:Product.hbm.xml" caret="398" fromTop="11" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/f:hibernate.cfg.xml" caret="0" fromTop="0" />
+      <File id="5171BCD1-AF27-4F88-9CB3-DAACB2FAD8C2/f:hibernate.cfg.xml" caret="585" fromTop="10" />
+      <File id="F6CA20D5-E7F4-42CF-B0FE-E7DF0C3E61BF/f:Class1.cs" caret="284" fromTop="10" />
+      <File id="F6CA20D5-E7F4-42CF-B0FE-E7DF0C3E61BF/f:Class1.cs" caret="478" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

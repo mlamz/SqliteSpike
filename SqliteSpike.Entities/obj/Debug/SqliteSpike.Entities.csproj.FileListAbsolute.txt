@@ -1,0 +1,5 @@
+C:\Spikes\NHibernate 3 Sqlite Spike\SqliteSpike.Entities\bin\Debug\SqliteSpike.Entities.dll
+C:\Spikes\NHibernate 3 Sqlite Spike\SqliteSpike.Entities\bin\Debug\SqliteSpike.Entities.pdb
+C:\Spikes\NHibernate 3 Sqlite Spike\SqliteSpike.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Spikes\NHibernate 3 Sqlite Spike\SqliteSpike.Entities\obj\Debug\SqliteSpike.Entities.dll
+C:\Spikes\NHibernate 3 Sqlite Spike\SqliteSpike.Entities\obj\Debug\SqliteSpike.Entities.pdb
