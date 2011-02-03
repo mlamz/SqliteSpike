@@ -8,6 +8,6 @@ namespace SqliteSpike.Entities
         public virtual Guid ProductId { get; set; }
         public virtual string Title { get; set; }
         public virtual IEnumerable<Tag> Tags { get; set; }
-        public virtual IEnumerable<Release> Releases { get; set; }
+        public virtual ICollection<Release> Releases { get; set; }
     }
 }

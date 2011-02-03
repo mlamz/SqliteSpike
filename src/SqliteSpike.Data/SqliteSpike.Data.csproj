@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NHibernateHelper.cs" />
-    <Compile Include="ProductRepository.cs" />
+    <Compile Include="PersistenceProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

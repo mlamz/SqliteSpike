@@ -16,5 +16,7 @@ namespace SqliteSpike.Tests
 
             new SchemaExport(cfg).Execute(true, true, false);
         }
+
+        
     }
 }

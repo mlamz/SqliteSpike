@@ -8,9 +8,9 @@
     drop table if exists Product
 
     create table Tag (
-        Id UNIQUEIDENTIFIER not null,
+        TagId UNIQUEIDENTIFIER not null,
        Name TEXT,
-       primary key (Id)
+       primary key (TagId)
     )
 
     create table ProductTag (
@@ -19,13 +19,14 @@
     )
 
     create table Release (
-        Id UNIQUEIDENTIFIER not null,
+        ReleaseId UNIQUEIDENTIFIER not null,
        Title TEXT,
-       primary key (Id)
+       ProductId UNIQUEIDENTIFIER,
+       primary key (ReleaseId)
     )
 
     create table Product (
-        Id UNIQUEIDENTIFIER not null,
+        ProductId UNIQUEIDENTIFIER not null,
        Title TEXT,
-       primary key (Id)
+       primary key (ProductId)
     )

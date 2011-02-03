@@ -3,11 +3,10 @@
                    assembly="SqliteSpike.Entities"
                    namespace="SqliteSpike.Entities">
   <class name="Release">
-    <id name="ReleaseId" unsaved-value="00000000-0000-0000-0000-000000000000">
+    <id name="ReleaseId">
       <generator class="guid" />
     </id>
     <property name="Title" />
-    <many-to-one name="Product" column="ProductId" />
-   
+    <many-to-one name="Product" class="Product" column="ProductId" foreign-key="FK_ProductRelease" />
   </class>
 </hibernate-mapping>

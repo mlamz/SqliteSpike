@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="SqliteSpike.Entities" namespace="SqliteSpike.Entities">
   <class name="Tag">
-    <id name="TagId" unsaved-value="00000000-0000-0000-0000-000000000000">
+    <id name="TagId">
       <generator class="guid" />
     </id>
     <property name="Name" />

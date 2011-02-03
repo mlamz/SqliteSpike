@@ -3,7 +3,7 @@
                    assembly="SqliteSpike.Entities"
                    namespace="SqliteSpike.Entities">
   <class name="Product">
-    <id name="ProductId" unsaved-value="00000000-0000-0000-0000-000000000000">
+    <id name="ProductId">
       <generator class="guid" />
     </id>
     <property name="Title" />
@@ -11,10 +11,10 @@
       <key column="ProductId"></key>
       <many-to-many class="Tag" column="TagId"></many-to-many>
     </bag>
-    <bag name="Releases" table="Release" cascade="save-update" lazy="false" inverse="true">
-      <key column="ProductId"/>
+    <set name="Releases" table="Release" cascade="all" lazy="false">
+      <key column="ProductId" foreign-key="FK_ProductRelease" />
       <one-to-many class="Release" />
-      </bag>
+      </set>
     
   </class>
 </hibernate-mapping>
